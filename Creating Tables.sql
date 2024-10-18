@@ -19,6 +19,7 @@ CREATE TABLE Borrowers (
     email NVARCHAR(80) UNIQUE NOT NULL,
     date_of_birth DATE,
     date_returned DATE,
+    membership_date DATE,
 )
  
 GO
